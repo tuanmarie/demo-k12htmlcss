@@ -8,35 +8,81 @@
   <title>Buổi 7</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
     integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 
-  <section class="banner">
+  <!-- <section class="banner">
     <div>
       <img src="./assets/banner.jpg" alt="">
       <div class="title">
         <h2>Nguyễn Văn A</h2>
         <span>Full stack developer</span>
       </div>
-    </div>
+    </div> -->
+    
+    <header class="banner">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <!-- <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div> -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/banner.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Trần Ngọc Tuấn</h5>
+              <p>FullStack Developer</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/tai_xuong.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Nestech</h5>
+              <p>FrontEnd BackEnd</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/1sttop1pubg.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>FullStack</h5>
+              <p>HTML CSS JS ReactJS</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
 
   </section>
   <section class="navbar">
 
     <ul>
-      <li>Thông tin</li>
-      <li>Lý lịch</li>
+      <li><a class="navbar_underline" href="#">Thông tin</a></li>
+      <li><a class="navbar_underline" href="#">Lý lịch</a></li>
       <li class="center">
-        <img src="./assets/default-avatar.webp" alt="">
+        
+        <img src="./assets/EvilGame.jpg" alt="">
+      
       </li>
-      <li>Chứng chỉ</li>
-      <li>Dự án</li>
+      <li><a class="navbar_underline" href="#">Chứng chỉ</a></li>
+      <li><a class="navbar_underline" href="#">Dự án</a></li>
     </ul>
 
   </section>
@@ -47,66 +93,49 @@
         Mục tiêu nghề nghiệp
       </h2>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis vitae ipsa odit corporis doloremque
-        perspiciatis! Voluptate, commodi. Voluptatibus nulla accusamus, molestiae possimus maiores, veritatis rem itaque
-        unde, ab temporibus repellendus.
+        Là 1 sinh viên đã hoàn thành chứng chỉ FullStack của Nestech . Em mong muốn mình sẽ làm việc với vị trí
         <strong>Full stack developer</strong>
-        Laborum omnis nesciunt totam iure nulla sit numquam neque impedit architecto voluptatum ipsum sunt voluptatem
-        tempora at error
+        , có thể vận dụng những kiến thức đã học để trau dồi và không ngừng học hỏi để phát triển bản thân, cũng như hoàn thành tốt nhất công việc được giao . <br><br><br>
     </div>
     <div class="info__person">
       <h2>
         Thông tin cá nhân
       </h2>
-      <div>
+      <div class="info__person--text">
         <div>
           <strong>Giới tính:</strong>
           <span>Nam</span>
         </div>
         <div>
-          <strong>Giới tính:</strong>
-          <span>Nam</span>
+          <strong>Ngày sinh:</strong>
+          <span>13/12/1986</span>
         </div>
         <div>
-          <strong>Giới tính:</strong>
-          <span>Nam</span>
+          <strong>Điện thoại:</strong>
+          <span>0903367891</span>
         </div>
         <div>
-          <strong>Giới tính:</strong>
-          <span>Nam</span>
+          <strong>Email:</strong>
+          <span>tuanmarie@gmail.com</span>
         </div>
         <div>
-          <strong>Giới tính:</strong>
-          <span>Nam</span>
+          <strong>Địa chỉ:</strong>
+          <span>38 Đường 458 Trung An Củ Chi</span>
         </div>
         <div>
-          <strong>Giới tính:</strong>
-          <span>Nam</span>
+          <strong>Website:</strong>
+          <a href="https://ark.mangosteen.fun">ark.mangosteen.fun</a>
+          
         </div>
 
       </div>
       <div class="info__person--link">
-        <a href="google.com">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter"
-            viewBox="0 0 16 16">
-            <path
-              d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
-          </svg>
-        </a>
-        <a href="facebook.com">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook"
-            viewBox="0 0 16 16">
-            <path
-              d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-          </svg>
-        </a>
-        <a href="google.com">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google"
-            viewBox="0 0 16 16">
-            <path
-              d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z" />
-          </svg>
-        </a>
+        <ul>
+        <li><a href="https://twitter.com"><i class="fab fa-twitter icon"></i></a></li>
+        <li><a href="https://facebook.com"><i class="fab fa-facebook-f icon"></i></a></li>
+          <li><a href="https://google.com"><i class="fab fa-google-plus-g icon"></i></a></li>
+          <li><a href="https://linkedin.com"><i class="fab fa-linkedin-in icon"></i></i></a></li>
+        </ul>
       </div>
     </div>
 
@@ -130,9 +159,9 @@
             <div>
               <em>06/2021 - </em>
               <button class="btn btn-primary">Hiện tại</button>
-              <p>- Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, beatae.</p>
-              <p> -Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, beatae. </p>
-              <p> - Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, beatae.</p>
+              <p>- Xây dựng và phát triển website dựa trên thiết kế và yêu cầu đã có </p>
+              <p> - Phân tích và thiết kế Database , sữ dụng hệ thống quản trị CSDL(MySQL,SQLServer,SQLite,NOSQL...) và viết được các câu truy vấn cũng như bảo mật ngăn chặn Website khỏi tấn công SQLinjection </p>
+              <p> - Sữ dụng ngôn ngữ server-side(Python,JAVA,...) để xây dựng các Web Service </p>
             </div>
 
           </li>
@@ -141,9 +170,9 @@
             <div>
               <em>06/2021 - 04/2022 </em>
 
-              <p>- Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, beatae. O</p>
-              <p> -Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, beatae.</p>
-              <p> - Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, beatae. </p>
+              <p>- Thiết kế Website dựa trên yêu cầu khách hàng </p>
+              <p> - Sữ dụng các công cụ : Figma, Canva , PTS </p>
+              <p> - Sữ dụng hiệu quả các công cụ bảo mật , điều phối truy cập chống DDOS (FireWall Layers , CDN , CloudFlare) </p>
             </div>
 
           </li>
@@ -244,9 +273,9 @@
             <div>
               <em>06/2021 - </em>
               <button class="btn btn-primary">Hiện tại</button>
-              <p>- Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, beatae.</p>
-              <p> -Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, beatae. </p>
-              <p> - Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, beatae. </p>
+              <p>- Xây dựng và phát triển website dựa trên thiết kế và yêu cầu đã có </p>
+              <p> - Phân tích và thiết kế Database , sữ dụng hệ thống quản trị CSDL(MySQL,SQLServer,SQLite,NOSQL...) và viết được các câu truy vấn bảo mật Website khỏi tấn công SQLinjection </p>
+              <p> - Sữ dụng ngôn ngữ server-side(Python,JAVA,...) để xây dựng các Web Service </p>
             </div>
 
           </li>
@@ -255,9 +284,9 @@
             <div>
               <em>06/2021 - 04/2022 </em>
 
-              <p>- Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, beatae. O</p>
-              <p> -Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, beatae.</p>
-              <p> - Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, beatae. </p>
+              <p>- Thiết kế Website dựa trên yêu cầu khách hàng </p>
+              <p> - Sữ dụng các công cụ : Figma, Canva , PTS </p>
+              <p> - Sữ dụng hiệu quả các công cụ bảo mật , điều phối truy cập (FireWall Layers , CDN , CloudFlare) </p>
             </div>
 
           </li>
@@ -296,51 +325,24 @@
       <div class="skill profile__item col-lg-4 col-md-6 col-sm-12">
         <div class="skill__title title mb-4 ">
           <h2>Sở thích</h2>
-          <i class="fas fa-tools"></i>
+          <i class="fas fa-glass-cheers"></i>
         </div>
-        <div class="mb-4">
-          <span class="text-secondary">HTML/CSS</span>
-          <div>
-            <div class="dash active"></div>
-            <div class="dash active "></div>
-            <div class="dash active"></div>
-            <div class="dash"></div>
-            <div class="dash"></div>
-          </div>
-        </div>
-
-        <div class="mb-4">
-          <span class="text-secondary">Javascript</span>
-          <div>
-            <div class="dash active"></div>
-            <div class="dash active "></div>
-            <div class="dash active"></div>
-            <div class="dash"></div>
-            <div class="dash"></div>
-          </div>
-        </div>
-
-        <div class="mb-4">
-          <span class="text-secondary">NodeJs</span>
-          <div>
-            <div class="dash active"></div>
-            <div class="dash active "></div>
-            <div class="dash active"></div>
-            <div class="dash"></div>
-            <div class="dash"></div>
-          </div>
-        </div>
-
-        <div class="mb-4">
-          <span class="text-secondary">Bootstrap</span>
-          <div>
-            <div class="dash active"></div>
-            <div class="dash active "></div>
-            <div class="dash "></div>
-            <div class="dash"></div>
-            <div class="dash"></div>
-          </div>
-        </div>
+        <div class="hobbies d-flex mb-4"><ul>
+          <table>
+            <tr>
+            <td><i class="fas fa-headphones-alt"></i></td>
+            <td><i class="fab fa-steam"></i></td>
+            <td><i class="fas fa-plane"></i></td>
+            <td><i class="fas fa-hamburger"></i></td>
+            </tr>
+            <tr>
+              <td><span>Âm Nhạc</span></td>
+              <td><span>Chơi Game</span></td>
+              <td><span>Du Lịch</span></td>
+              <td><span>Nấu Ăn</span></td>
+            </tr> 
+          </table>
+        </ul> </div>
       </div>
     </div>
   </section>
@@ -350,7 +352,7 @@
       <div class="row">
 
         <div class="reward__item p-3 mb-3 col-md-6 col-sm-12">
-          <img src="./assets/Cert_WEB.png" alt="">
+          <div data-aos="fade-right"><img src="./assets/Cert_WEB.png" alt=""></div>
           <div class="ps-3">
             <h4>
               Chứng chỉ lập trình web - Neshtech
@@ -361,7 +363,7 @@
 
         </div>
         <div class="reward__item mb-3 p-3 col-md-6 col-sm-12">
-          <img src="./assets/Cert_WEB.png" alt="">
+          <div data-aos="fade-left"><img src="./assets/Cert_WEB.png" alt=""></div>
           <div class="ps-3">
             <h4>
               Chứng chỉ lập trình web - Neshtech
@@ -374,7 +376,7 @@
 
       </div>
       <div class="reward__item w-50 mt-4 p-3">
-        <img src="./assets/Cert_WEB.png" alt="">
+        <div data-aos="zoom-in-up"><img src="./assets/Cert_WEB.png" alt=""></div>
         <div class="ps-3">
           <h4>
             Chứng chỉ lập trình web - Neshtech
@@ -394,7 +396,7 @@
     <div class="row justify-content-between">
 
       <div class="project__item col-md-4 col-sm-12 mb-3">
-        <img src="./assets/project_1.png" alt="">
+        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"><img src="./assets/project_1.png" alt=""></div>
         <h6 class="text-center p-3">CV cá nhân</h6>
         <table>
           <tbody>
@@ -423,8 +425,8 @@
         </table>
       </div>
       <div class="project__item col-md-4 col-sm-12 mb-3">
-        <img src="./assets/project_1.png" alt="">
-        <h6 class="text-center p-3">CV cá nhân</h6>
+        <div data-aos="fade-up" data-aos-duration="3000"><img src="./assets/project_2.png" alt=""></div>
+        <h6 class="text-center p-3">Trang Web Quản Lý Thú Cưng</h6>
         <table>
           <tbody>
             <tr class="p-3">
@@ -452,8 +454,8 @@
         </table>
       </div>
       <div class="project__item col-md-4 col-sm-12 mb-3">
-        <img src="./assets/project_1.png" alt="">
-        <h6 class="text-center p-3">CV cá nhân</h6>
+        <div data-aos="fade-left" data-aos-offset="500" data-aos-duration="500"><img src="./assets/project_3.png" alt=""></div>
+        <h6 class="text-center p-3">Trang Web xem tin tức</h6>
         <table>
           <tbody>
             <tr class="p-3">
@@ -484,21 +486,21 @@
 
   </section>
   <footer class="d-flex justify-content-center p-4">
-    <div class="me-3">
+    <div class="link me-3">
       <a href="https://facebook.com" class="text-primary text-decoration-none">
         <i class="fab fa-facebook-square"></i>
         <span class="text-dark">Facebook</span>
       </a>
     </div>
 
-    <div class="me-3">
+    <div class="link me-3">
       <a href="https://facebook.com" class="text-primary text-decoration-none">
         <i class="fab fa-linkedin-in"></i>
         <span class="text-dark">Linkedin</span>
       </a>
     </div>
 
-    <div class="me-3">
+    <div class="link me-3">
       <a href="https://facebook.com" class="text-primary text-decoration-none">
         <i class="fab fa-github"></i>
         <span class="text-dark">GitHub</span>
@@ -509,6 +511,11 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
